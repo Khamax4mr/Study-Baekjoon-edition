@@ -2,7 +2,7 @@
 using std::cin, std::cout;
 
 int main() {
-    // 연도 입력.
+    // 연도 year 입력.
     short year;
     cin >> year;
     if (year < 1 || year > 4000) exit(0);
